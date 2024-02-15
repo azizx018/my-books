@@ -1,12 +1,13 @@
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+
 import React from 'react';
+import Navbar from './Navbar';
 
 function Header() {
     return (
         <header>
             <h1> 
-                Books
-                <AutoStoriesIcon/>
+                
+                <Navbar/>
             </h1>
         </header>
     )
